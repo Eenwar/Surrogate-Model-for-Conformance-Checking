@@ -1,0 +1,29 @@
+# The corpus ships as three archives; prepare_data.py unpacks them into these
+# folders. 629 MB once extracted, so the archives are what is versioned.
+data_exact_models/pdc2021/Models/
+data_exact_models/pdc2021/TrainingLogs/
+data_exact_models/pdc2021/GroundTruthLogs/
+data_exact_models/pdc2021/TestLogs/
+
+# Written by the notebook.
+figures_poisson/
+poisson_*.csv
+poisson_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

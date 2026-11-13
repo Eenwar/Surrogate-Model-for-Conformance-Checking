@@ -1,0 +1,19 @@
+# Versions of the run reported in the paper, read back from
+# poisson_run_manifest.json (section 13 of the notebook).
+# Python 3.11.9.
+#
+# torch was the CUDA 12.1 build, 2.5.1+cu121. pip installs the default build
+# for your platform from this file; for the exact one, run first:
+#   pip install torch==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+pm4py==2.7.22.2
+torch==2.5.1
+numpy==1.26.4
+pandas==2.3.3
+scikit-learn==1.6.1
+lxml==6.0.2
+matplotlib==3.8.2
+
+# To open and run the notebook.
+jupyter
+ipython
